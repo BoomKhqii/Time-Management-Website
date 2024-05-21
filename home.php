@@ -25,15 +25,15 @@
 <html>	
 	<head>
 		<link rel="stylesheet" href="CSShome.css">
-		<audio id="alarmAudio"><source src="alarmNoise.mp3" type="audio/mpeg"></audio>
-		<picture id="ringingPicture"><source srcset="bellRing.png" type="image/png"></picture>
-		<picture id="normalPicture"><source srcset="bell.png" type="image/png"></picture>
+		<audio id="alarmAudio"><source src="Assets/alarmNoise.mp3" type="audio/mpeg"></audio>
+		<picture id="ringingPicture"><source srcset="Assets/bellRing.png" type="image/png"></picture>
+		<picture id="normalPicture"><source srcset="Assets/bell.png" type="image/png"></picture>
 		<script src="pomodoroAlarm.js"></script>
 	</head>
 	<header>
 		<table>
 			<tr>
-				<th>  ‎‎‎‎‎‎  <img src="LSM Logo.png" width="60" height="70"></th>
+				<th>  ‎‎‎‎‎‎  <img src="Assets/LSM Logo.png" width="60" height="70"></th>
 				<th><h2>Hi <a id='name'></a> and Pax Et Bonum<br><h4><span id="date"></h2></th>
 			</tr>
 		</table>
@@ -101,7 +101,7 @@
 				$length = count($row)-2;
 			?>
 		<center>
-			<h2><span id="ringingSpan" style="width:24px; height:24px; color:red;">Nothing alarmed<img src="bell.png" style="width:24px; height:24px;"></span></h2>
+			<h2><span id="ringingSpan" style="width:24px; height:24px; color:red;">Nothing alarmed<img src="Assets/bell.png" style="width:24px; height:24px;"></span></h2>
 		</center>
 		</table>
 		<div class="bigInvis"></div>
@@ -109,7 +109,7 @@
 			<h1>Take care of Matmat</h1>
 			<table class="headerPomodoro">
 				<tr>
-					<th align="left"><img src="test.png"  width="30%" height="30%"></th>
+					<th align="left"><img src="Assets/test.png"  width="30%" height="30%"></th>
 					<th>
 						<h2>Pomodoro Technique</h2>
 						<p>Step 1: Study for 1-3 hours continuously</p>
