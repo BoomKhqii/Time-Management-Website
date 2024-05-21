@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body {
+				background-image: url("LSM-register.jpg");
+				background-size: cover;
+				background-color: #3F9B0B;
+				height: 720px;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+			
+			.invis {
+				padding-top: 200px;
+			}
+			
+			.form {
+				border-radius: 25px;
+				height: 300px;
+				width: 50%;
+				background-color: #BBD8E1;
+				padding-top: 100px;
+			}
+		</style>
+	
+		<script>
+			function submitValue() {
+				// Get the value entered by the user
+				var input = document.getElementById('name');
+				var username = input.value;
+							
+				// Store the value in localStorage
+				localStorage.setItem('usernameInputted', username);
+				
+				// password
+							
+				// Redirect to the second page
+				window.location.href = 'home.php';
+			}
+		</script>
+	</head>
+	
+	<center>
+		<body>
+			<div class="invis"></div>
+			<div class="form">
+				<h1>TITLE</h1>
+				
+				Username: <input type="text" id="name" require><br>
+				Password: <input type="password" require><br>
+				Email: <input type="email" require><br>
+				Phone no.: <input type="tel" require><br>
+				<button onclick="submitValue()">Sign in</button>
+			</div>
+		</body>
+	</center>
+</html>

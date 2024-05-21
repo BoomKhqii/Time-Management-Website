@@ -1,0 +1,24 @@
+Website Revisions
+Todo
+UI: 
+	⁃	"+" add
+	⁃	"-" delete
+	⁃	Pop-up window 
+	⁃	Edit
+
+Side feature: 
+	⁃	allows no date and time (null)
+	⁃	Once alarmed (delete or snooze [3-5 mins])
+
+Pomodoro
+	⁃	Improve pets (more assets [display, cry, sad, happy])
+	⁃	Interactive (Feed, grow, mental [Currency -> improves pet's wellbeing])
+	⁃	Database (save the progress of user [user_id, petName, petLevel, petStatus])
+
+General
+UI: 
+	⁃	Calendar (Linked with Todo)
+	⁃	Side menu (Buttom to show/hide [Different sections])
+
+Database
+	⁃	Revision of database
