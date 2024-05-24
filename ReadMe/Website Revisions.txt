@@ -22,3 +22,13 @@ UI:
 
 Database
 	⁃	Revision of database
+
+Features -> homepage
+	-	 Daily Routine
+	-	current task today
+	-	shows what day of the week
+	-	level/status of your pomodoro
+
+Theme
+	-	Dark mode
+	-	Several templates
