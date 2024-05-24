@@ -42,7 +42,7 @@
 			</center>
 		</div>
 
-		<div>
+		<div style="padding-top: 2%"></div>
 		<div class="sidebarContent">
 			<div>
 				<h2>To-do List</h2>
@@ -149,6 +149,7 @@
 				</center>
 			</div>
 		</div>
+		<div style="padding-top: 2%"></div>
 	</body>
 </html>
 
