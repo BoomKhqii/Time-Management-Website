@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: white;
     color: white;
 }
 
@@ -18,7 +18,7 @@ body {
     width: 40%;
 }
   
-  .sidebarButton a {
+.sidebarButton a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -26,7 +26,7 @@ body {
     display: block;
   }
   
-  .sidebarButton a:hover {
+.sidebarButton a:hover {
     color: #f1f1f1;
   }
 
@@ -39,7 +39,8 @@ body {
     left: 0;
     background-color: #3F3F3F;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 2%;
+    padding-bottom: 1%;
     border-radius: 1%;
 }
 
