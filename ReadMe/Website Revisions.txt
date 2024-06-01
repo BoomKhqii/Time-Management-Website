@@ -34,3 +34,5 @@ Theme
 	-	Several templates
 
 css changes test
+
+visual reports

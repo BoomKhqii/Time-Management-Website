@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: white;
-    color: white;
+  background-color: #060606;
+  color: white;
 }
 
 .todolist {
@@ -14,46 +14,51 @@ body {
 }
 
 .headerPomodoro {
-    margin-left: 100;
-    width: 40%;
+  margin-left: 100;
+  width: 40%;
 }
   
-.sidebarButton a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-  }
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+ color: #818181;
+  display: block;
+}
   
-.sidebarButton a:hover {
-    color: #f1f1f1;
+.sidebar a:hover {
+  color: #f1f1f1;
   }
 
-.sidebarButton {
-    height: 90%;
-    width: 20%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #3F3F3F;
-    overflow-x: hidden;
-    padding-top: 2%;
-    padding-bottom: 1%;
-    border-radius: 1%;
+.sidebarDesign {
+	width: 20%;
+	left: 0.5%;
+	position: fixed;
+	height: 100%;
+	z-index: 1;
+	padding: 1px 0;
+}
+
+.sidebar {
+	padding-top: 5%;
+	border-radius: 1%;
+	background-color: #1A1D21;
+	height: 1120px;
+
 }
 
 .sidebarContent {
-    margin-left: 21%;
-    margin-right: 1%;
-    font-size: 28px;
-    background-color: blue;
-    height: 90%;
+  padding-top: 3%;
+  padding-left:2%;
+  margin-left: 21%;
+  margin-right: 1%;
+  font-size: 28px;
+  background-color: #1A1D21;
+   height: 1120px;
     border-radius: 1%;
 }
 
 @media screen and (max-height: 450px) {
-    .sidebarButton {padding-top: 2%;}
-    .sidebarButton a {font-size: 18px;}
-  }
+  .sidebar {padding-top: 2%;}
+  .sidebar a {font-size: 18px;}
+}
