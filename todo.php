@@ -30,6 +30,7 @@
 				margin-right: auto;
 			}
 		</style>
+		<script src="nameCurrentDate.js"></script>
 	</head>
 	<body>
 		<div class="sidebarDesign">

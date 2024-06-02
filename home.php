@@ -94,6 +94,10 @@
 			.sidebar a {font-size: 18px;}
 			}
 			*/
+			.iconStyle {
+    width: 20px;
+    height: 20px;
+}
 		</style>
 		<audio id="alarmAudio"><source src="Assets/alarmNoise.mp3" type="audio/mpeg"></audio>
 		<picture id="ringingPicture"><source srcset="Assets/bellRing.png" type="image/png"></picture>
@@ -108,7 +112,10 @@
 				<center>
 					<h1>Welcome <span id='name'>null</span> to Management<br><span id="date"></span></h1>
 					<div style="padding: 5%"></div>
-					<a href="todo.php" class="todoButton">Hot list</a><br>
+					<a href="todo.php" class="todoButton">
+						<img src="Assets/todoIcon.png" class="iconStyle"></img>     Hot list
+					</a><br>
+
 					<a href="#" class="todoButton">Hot list</a><br>
 					<a href="#" class="todoButton">Hot list</a><br>
 					<a href="#" class="todoButton">Hot list</a><br>
