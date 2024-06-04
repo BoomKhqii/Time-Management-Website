@@ -36,3 +36,7 @@ Theme
 css changes test
 
 visual reports
+
+Pomodoro
+	-Timer: Work (20-25 mins), Short Break (5 mins) and Long Break (4 reps | 10-15)
+	-

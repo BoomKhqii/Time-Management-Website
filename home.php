@@ -26,78 +26,9 @@
 
 <html>	
 	<head>
-		<link rel="stylesheet" type="text/css" href="defaultStyle.css">
+		<link rel="stylesheet" type="text/css" href="sidebarStyling.css">
 		<style>
-			/*
-			* {
-			margin: 0;
-			padding: 0;
-			}
-
-			body {
-			background-color: #060606;
-			color: white;
-			}
-
-			.todolist {
-				margin-left: auto;
-				margin-right: auto;
-			}
-
-			.headerPomodoro {
-			margin-left: 100;
-			width: 40%;
-			}
-			
-			.sidebar a {
-			padding: 6px 8px 6px 16px;
-			text-decoration: none;
-			font-size: 25px;
-			color: #818181;
-			display: block;
-			}
-			
-			.sidebar a:hover {
-			color: #f1f1f1;
-			}
-
-			.sidebarDesign {
-				width: 20%;
-				left: 0.5%;
-				position: fixed;
-				height: 100%;
-				z-index: 1;
-				padding: 1px 0;
-			}
-
-			.sidebar {
-				padding-top: 5%;
-				border-radius: 1%;
-				background-color: #1A1D21;
-				height: 1120px;
-
-			}
-
-			.sidebarContent {
-			padding-top: 3%;
-			padding-left:2%;
-			margin-left: 21%;
-			margin-right: 1%;
-			font-size: 28px;
-			background-color: #1A1D21;
-			height: 1120px;
-				border-radius: 1%;
-			}
-
-			@media screen and (max-height: 450px) {
-			.sidebar {padding-top: 2%;}
-			.sidebar a {font-size: 18px;}
-			}
-			*/
-			.iconStyle {
-    width: 20px;
-    height: 20px;
-}
+			/* CSS*/
 		</style>
 		<audio id="alarmAudio"><source src="Assets/alarmNoise.mp3" type="audio/mpeg"></audio>
 		<picture id="ringingPicture"><source srcset="Assets/bellRing.png" type="image/png"></picture>
@@ -110,16 +41,24 @@
   		<div class="sidebarDesign">
 			<div class="sidebar">
 				<center>
-					<h1>Welcome <span id='name'>null</span> to Management<br><span id="date"></span></h1>
+				<h1>Welcome <span id='name'>null</span> to Management<br><span id="date"></span></h1>
 					<div style="padding: 5%"></div>
 					<a href="todo.php" class="todoButton">
 						<img src="Assets/todoIcon.png" class="iconStyle"></img>     Hot list
 					</a><br>
 
-					<a href="#" class="todoButton">Hot list</a><br>
-					<a href="#" class="todoButton">Hot list</a><br>
-					<a href="#" class="todoButton">Hot list</a><br>
-					<a href="#" class="todoButton">Hot list</a>
+					<a href="pomodoro.html" class="***Button">
+						<img src="Assets/***.png" class="iconStyle"></img>     Pomodoro
+					</a><br>
+					<a href="***.html" class="***Button">
+						<img src="Assets/***.png" class="iconStyle"></img>     ***
+					</a><br>
+					<a href="***.html" class="***Button">
+						<img src="Assets/***.png" class="iconStyle"></img>     ***
+					</a><br>
+					<a href="***.html" class="***Button">
+						<img src="Assets/***.png" class="iconStyle"></img>     ***
+					</a><br>
 				</center>
 			</div>
 		</div>

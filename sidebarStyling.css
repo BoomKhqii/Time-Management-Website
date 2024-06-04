@@ -7,16 +7,6 @@ body {
     background-color: #060606;
     color: white;
 }
-
-.todolist {
-   margin-left: auto;
-    margin-right: auto;
-}
-
-.headerPomodoro {
-    margin-left: 100;
-    width: 40%;
-}
     
 .sidebar a {
     padding: 6px 8px 6px 16px;
@@ -63,6 +53,6 @@ body {
 }
 
 .iconStyle {
-    width: 10%;
-    height: 10%;
+    width: 5%;
+    height: 2%;
 }

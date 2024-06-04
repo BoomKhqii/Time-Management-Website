@@ -23,7 +23,7 @@
 ?>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="defaultStyle.css">
+		<link rel="stylesheet" type="text/css" href="sidebarStyling.css">
 		<style>
 			.todolist {
 				margin-left: auto;
@@ -36,13 +36,26 @@
 		<div class="sidebarDesign">
 			<div class="sidebar">
 				<center>
-					<h1>Welcome <span id='name'>null</span> to Management<br><span id="date"></span></h1>
+					<a href="home.php" class="***Button">
+						<h1>Welcome <span id='name'>null</span> to Management<br><span id="date"></span></h1>
+					</a><br>
 					<div style="padding: 5%"></div>
-					<a href="todo.php" class="todoButton">Hot list</a><br>
-					<a href="#" class="todoButton">Hot list</a><br>
-					<a href="#" class="todoButton">Hot list</a><br>
-					<a href="#" class="todoButton">Hot list</a><br>
-					<a href="#" class="todoButton">Hot list</a>
+					<a href="todo.php" class="todoButton">
+						<img src="Assets/todoIcon.png" class="iconStyle"></img>     Hot list
+					</a><br>
+
+					<a href="pomodoro.html" class="***Button">
+						<img src="Assets/***.png" class="iconStyle"></img>     Pomodoro
+					</a><br>
+					<a href="***.html" class="***Button">
+						<img src="Assets/***.png" class="iconStyle"></img>     ***
+					</a><br>
+					<a href="***.html" class="***Button">
+						<img src="Assets/***.png" class="iconStyle"></img>     ***
+					</a><br>
+					<a href="***.html" class="***Button">
+						<img src="Assets/***.png" class="iconStyle"></img>     ***
+					</a><br>
 				</center>
 			</div>
 		</div>
