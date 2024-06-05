@@ -48,7 +48,7 @@
 					</a><br>
 
 					<a href="pomodoro.html" class="***Button">
-						<img src="Assets/***.png" class="iconStyle"></img>     Pomodoro
+						<img src="Assets/pomodoroIcon.png" class="iconStyle"></img>     Pomodoro
 					</a><br>
 					<a href="***.html" class="***Button">
 						<img src="Assets/***.png" class="iconStyle"></img>     ***
