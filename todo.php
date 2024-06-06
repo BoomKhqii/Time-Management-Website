@@ -23,7 +23,7 @@
 ?>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="sidebarStyling.css">
+		<link rel="stylesheet" type="text/css" href="sidebarStyle.css">
 		<style>
 			.todolist {
 				margin-left: auto;
@@ -33,19 +33,19 @@
 		<script src="nameCurrentDate.js"></script>
 	</head>
 	<body>
-		<div class="sidebarDesign">
-			<div class="sidebar">
+		
+	<div class="sidebarDesign">
+			<div class="sidebar" style="padding-left: 5%;">
 				<center>
-					<a href="home.php" class="***Button">
-						<h1>Welcome <span id='name'>null</span> to Management<br><span id="date"></span></h1>
-					</a><br>
+				<h1>Welcome <span id='name'>null</span> to Management<br><span id="date"></span></h1>
+				</center>
 					<div style="padding: 5%"></div>
 					<a href="todo.php" class="todoButton">
-						<img src="Assets/todoIcon.png" class="iconStyle"></img>     Hot list
+						<img src="Assets/todoIcon.png" class="todoIcon"></img>     Hot list
 					</a><br>
 
 					<a href="pomodoro.html" class="***Button">
-						<img src="Assets/***.png" class="iconStyle"></img>     Pomodoro
+						<img src="Assets/pomodoroIcon.png" class="pomodoroIcon"></img>     Pomodoro
 					</a><br>
 					<a href="***.html" class="***Button">
 						<img src="Assets/***.png" class="iconStyle"></img>     ***
@@ -56,7 +56,6 @@
 					<a href="***.html" class="***Button">
 						<img src="Assets/***.png" class="iconStyle"></img>     ***
 					</a><br>
-				</center>
 			</div>
 		</div>
 		

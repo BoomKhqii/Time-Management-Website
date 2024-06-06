@@ -20,20 +20,20 @@ body {
     color: #f1f1f1;
 }
 
+.sidebar {
+    padding-top: 3%;
+    border-radius: 1%;
+    background-color: #1A1D21;
+    height: 1120px;
+    padding-left: 5%;
+}
+
 .sidebarDesign {
     width: 20%;
     left: 0.5%;
     position: fixed;
-    height: 100%;
     z-index: 1;
     padding: 1px 0;
-}
-
-.sidebar {
-    padding-top: 5%;
-    border-radius: 1%;
-    background-color: #1A1D21;
-    height: 1120px;
 }
 
 .sidebarContent {
@@ -52,7 +52,14 @@ body {
     .sidebar a {font-size: 18px;}
 }
 
-.iconStyle {
-    width: 5%;
-    height: 2%;
+.todoIcon {
+    width: 20px;
+    height: 20px;
+    /* 5% 2% */
+}
+
+.pomodoroIcon {
+    width: 20px;
+    height: 20px;
+    /* 6% 2%*/
 }

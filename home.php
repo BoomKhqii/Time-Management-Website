@@ -26,9 +26,10 @@
 
 <html>	
 	<head>
-		<link rel="stylesheet" type="text/css" href="sidebarStyling.css">
+		<link rel="stylesheet" type="text/css" href="sidebarDesign.css">
 		<style>
-			/* CSS*/
+			/* CSS */
+			
 		</style>
 		<audio id="alarmAudio"><source src="Assets/alarmNoise.mp3" type="audio/mpeg"></audio>
 		<picture id="ringingPicture"><source srcset="Assets/bellRing.png" type="image/png"></picture>
@@ -42,13 +43,14 @@
 			<div class="sidebar">
 				<center>
 				<h1>Welcome <span id='name'>null</span> to Management<br><span id="date"></span></h1>
+				</center>
 					<div style="padding: 5%"></div>
 					<a href="todo.php" class="todoButton">
-						<img src="Assets/todoIcon.png" class="iconStyle"></img>     Hot list
+						<img src="Assets/todoIcon.png" class="todoIcon"></img>     Hot list
 					</a><br>
 
 					<a href="pomodoro.html" class="***Button">
-						<img src="Assets/pomodoroIcon.png" class="iconStyle"></img>     Pomodoro
+						<img src="Assets/pomodoroIcon.png" class="pomodoroIcon"></img>     Pomodoro
 					</a><br>
 					<a href="***.html" class="***Button">
 						<img src="Assets/***.png" class="iconStyle"></img>     ***
@@ -59,7 +61,6 @@
 					<a href="***.html" class="***Button">
 						<img src="Assets/***.png" class="iconStyle"></img>     ***
 					</a><br>
-				</center>
 			</div>
 		</div>
 
@@ -169,7 +170,6 @@
 				</center>
 			</div>
 		</div>
-		<div style="padding-top: 1%"></div>
 	</body>
 </html>
 
