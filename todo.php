@@ -23,7 +23,7 @@
 ?>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="sidebarStyle.css">
+		<link rel="stylesheet" type="text/css" href="sidebarDesign.css">
 		<style>
 			.todolist {
 				margin-left: auto;
