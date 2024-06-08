@@ -34,7 +34,6 @@
 		<audio id="alarmAudio"><source src="Assets/alarmNoise.mp3" type="audio/mpeg"></audio>
 		<picture id="ringingPicture"><source srcset="Assets/bellRing.png" type="image/png"></picture>
 		<picture id="normalPicture"><source srcset="Assets/bell.png" type="image/png"></picture>
-		<script src="pomodoroAlarm.js"></script>
 	</head>
 	<body>
 		<div style="padding-top: 2%"></div>
@@ -131,44 +130,6 @@
 			</div>
 
 			<div style="padding-top: 50px"></div>
-			<div class="pomodoro">
-				<h1>Take care of Matmat</h1>
-				<table class="headerPomodoro">
-					<tr>
-						<th align="left"><img src="Assets/test.png"  width="30%" height="30%"></th>
-						<th>
-							<h2>Pomodoro Technique</h2>
-							<p>Step 1: Study for 1-3 hours continuously</p>
-							<p>Step 2: Take a 5-30 minute break</p><br>
-							<p>Everytime you complete a session, you increase Matmat's lifespan by a year</p>
-						</th>
-					</tr>
-					<tr>
-						<td><h2>Lifespan of Matmat is: <span id="lifespan">5</span> years<h2></td>
-					</tr>
-				</table>
-				<center>
-					<form>
-						Study Length: <select name="study" id="study" require>
-							<option value="1">1 hour</option>
-							<option value="2">2 hours</option>
-							<option value="3">3 hours</option>
-						</select>
-						<button type="button" onclick="pomodoroStudyAlarm()" id="studyButton">Increase Matmat's lifespan</button>
-					</form>
-					<p>Time Remaining: <span id="h">00</span>:<span id="m">00</span>:<span id="s">00</span></p>
-					
-					<form>
-						Break Length: <select name="break" id="break" require>
-							<option value="5">5 minutes</option>
-							<option value="20">20 minutes</option>
-							<option value="30">30 minutes</option>
-						</select>
-						<button type="button" onclick="pomodoroBreakAlarm()" id="breakButton">Start your break</button>
-					</form>
-					<p>Time Remaining: <span id="bH">00:</span><span id="bM">00</span>:<span id="bS">00</span></p>
-				</center>
-			</div>
 		</div>
 	</body>
 </html>

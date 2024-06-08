@@ -8,6 +8,8 @@
             }
 		</style>
         <script src="nameCurrentDate.js"></script>
+		<audio id="alarmAudio"><source src="Assets/alarmNoise.mp3" type="audio/mpeg"></audio>
+		<script src="pomodoroAlarm.js"></script>
 	</head>
 	<body>
 		<div style="padding-top: 2%"></div>
@@ -40,25 +42,35 @@
 		<div class="sidebarContent">
             <div class="pomodoro">
 				<center>
+					<span id='x'>x</span>
 					<form>
 						Study Length: <select name="study" id="study" require>
-							<option value="1">1 hour</option>
-							<option value="2">2 hours</option>
-							<option value="3">3 hours</option>
+							<option value="25">25 minutes</option>
+							<option value="30">30 minutes</option>
+							<option value="35">35 minutes</option>
 						</select>
 						<button type="button" onclick="pomodoroStudyAlarm()" id="studyButton">Increase Matmat's lifespan</button>
 					</form>
-					<p>Time Remaining: <span id="h">00</span>:<span id="m">00</span>:<span id="s">00</span></p>
+					<p>Time Remaining: <span id="m">00</span>:<span id="s">00</span></p>
 					
 					<form>
-						Break Length: <select name="break" id="break" require>
+						Short Break Length: <select name="break" id="shortBreak" require>
+							<option value="3">3 minutes</option>
 							<option value="5">5 minutes</option>
-							<option value="20">20 minutes</option>
-							<option value="30">30 minutes</option>
+							<option value="10">10 minutes</option>
 						</select>
-						<button type="button" onclick="pomodoroBreakAlarm()" id="breakButton">Start your break</button>
+						<button type="button" onclick="pomodoroShortBreakAlarm()" id="shortBreakButton">Start your break</button>
 					</form>
-					<p>Time Remaining: <span id="bH">00:</span><span id="bM">00</span>:<span id="bS">00</span></p>
+					<p>Time Remaining: <span id="shortBreakMinutes">00</span>:<span id="shortBreakSeconds">00</span></p>
+
+					<form>
+						Long Break Length: <select name="break" id="longBreak" require>
+							<option value="15">15 minutes</option>
+							<option value="20">20 minutes</option>
+						</select>
+						<button type="button" onclick="pomodoroLongBreakAlarm()" id="longBreakButton">Start your break</button>
+					</form>
+					<p>Time Remaining: <span id="longBreakMinutes">00</span>:<span id="longBreakSeconds">00</span></p>
 				</center>
 			</div>
 		</div>
