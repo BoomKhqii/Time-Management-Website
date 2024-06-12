@@ -38,5 +38,12 @@ css changes test
 visual reports
 
 Pomodoro
-	-Timer: Work (20-25 mins), Short Break (5 mins) and Long Break (4 reps | 10-15)
-	-
+	- Timer: Work (20-25 mins), Short Break (5 mins) and Long Break (4 reps | 10-15)
+	- Double click
+		~ Buton //
+
+Contribution
+	- Completion of daily task
+
+Calendar
+	- Connected to todo

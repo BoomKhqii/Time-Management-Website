@@ -124,3 +124,21 @@ function AlarmDone(alertDescription) //fix sleep function
             
     Enable_Disable_Button("studyButton", "shortBreakButton", "longBreakButton", 1);
 }
+
+function work() {
+    DisplayTime("shortBreakMinutes", "shortBreakSeconds", m, s);
+}
+
+function shortBreak() {
+    $scope.id = 1;
+    document.getElementById("pomodoroMinutes").innerText = $scope.id;
+}
+
+function longBreak() {
+    $scope.id = 2;
+    document.getElementById("pomodoroMinutes").innerText = $scope.id;
+}
+
+function dynamicFunction() {
+
+}
